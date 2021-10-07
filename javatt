@@ -1,0 +1,19 @@
+package com.company;
+import java.util.Scanner;
+
+public class calculatecgpa {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter your maths grade points");
+        int a=sc.nextInt();
+        System.out.println("enter your physics grade points");
+        int b=sc.nextInt();
+        System.out.println("enter your chemistry grade points");
+        int c=sc.nextInt();
+        float cgpa=(a+b+c)/3f;
+        System.out.print("your cgpa=");
+        System.out.println(cgpa);
+
+
+    }
+}
